@@ -1,0 +1,126 @@
+<header id="site-header">
+    <div class="container header-inner">
+        <a href="{{ .Site.Home.Permalink }}" class="logo">
+            <div class="logo-icon">
+                <svg width="40" height="40" viewBox="0 0 960 1024" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;">
+                  <path d="M480,-0c269.652,-0 480,190.715 480,400c-1.113,87.192 -40.791,272.72 -55.032,337c-15.234,68.765 -57.024,111.215 -128.407,120c-39.051,4.086 -60.291,27.163 -65.223,64l-4.077,70c-1.019,24 -15.962,33 -39.745,33l-375.032,-0c-23.783,-0 -38.726,-9 -39.745,-33l-4.077,-70c-4.932,-36.837 -26.172,-59.914 -65.223,-64c-71.383,-8.785 -113.173,-51.235 -128.407,-120c-14.241,-64.28 -53.919,-249.808 -55.032,-337c-0,-209.285 210.348,-400 480,-400Zm327.48,613.579l9,-51.5l-155,-105l-12.5,70l89,61l-110,60l-12.5,70l192,-104.5Zm-363.23,102.75l123.75,-259.25l-52,-0l-124,259.25l52.25,-0Zm-145.73,1.75l12.5,-70l-89,-60l110.5,-61l12,-70l-192,105l-9,51.5l155,104.5Zm109.107,183.18c-14.961,-3.743 -29.362,-8.684 -43.205,-14.823c-13.806,-5.926 -22.698,-10.188 -26.676,-12.787c-4.192,-2.561 -7.417,-4.632 -9.676,-6.214l-12.282,46.387l10.166,7.118c15.913,10.395 42.338,21.136 79.275,32.224c17.646,5.249 39.12,8.502 64.423,9.761c25.341,1.472 50.067,0.082 74.178,-4.169c24.112,-4.252 46.014,-10.424 65.708,-18.517c19.732,-7.879 32.447,-13.751 38.146,-17.616c5.736,-3.652 10.054,-6.613 12.954,-8.885l-28.648,-46.43l-3.766,2.974c-5.837,4.329 -16.544,9.737 -32.121,16.224c-7.342,3.275 -16.769,6.587 -28.279,9.937c-11.259,3.525 -25.743,6.849 -43.453,9.972c-17.497,3.085 -37.579,3.986 -60.246,2.702c-22.667,-1.283 -41.5,-3.903 -56.498,-7.858Z" fill="currentColor"/>
+                </svg>
+            </div>
+            <div class="logo-text-wrapper">
+                <span class="logo-text-main">Good For You</span>
+                <span class="logo-text-sub">Web Services</span>
+            </div>
+        </a>
+        <nav style="display: flex; align-items: center; gap: 2rem;">
+            <div class="nav-drawer" id="nav-drawer">
+                <button class="close-menu" id="close-menu-btn" aria-label="Close Menu">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="/" class="{{ if (eq .RelPermalink "/") }}active{{ end }}">Home</a></li>
+                    <li><a href="/about/" class="{{ if (eq .RelPermalink "/about/") }}active{{ end }}">About</a></li>
+                    <li style="position: relative;" class="dropdown-wrapper">
+                        <a href="#" class="{{ if or (eq .RelPermalink "/printing/") (eq .RelPermalink "/#services") }}active{{ end }}" style="display: flex; align-items: center; gap: 0.2rem;">Services <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                        <ul class="dropdown-menu" style="display: none; position: absolute; top: 100%; left: 0; background: var(--bg-white); border-radius: 8px; padding: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-direction: column; gap: 1rem; min-width: 150px; z-index: 100;">
+                            <li><a href="/#services" style="font-weight: normal; font-size: 1rem;">Web Design</a></li>
+                            <li><a href="/printing/" style="font-weight: normal; font-size: 1rem;" class="{{ if (eq .RelPermalink "/printing/") }}active{{ end }}">3D Printing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/faq/" class="{{ if (eq .RelPermalink "/faq/") }}active{{ end }}">FAQ</a></li>
+                    <li><a href="/pricing/" class="{{ if (eq .RelPermalink "/pricing/") }}active{{ end }}">Pricing</a></li>
+                    <li><a href="/contact/" class="{{ if (eq .RelPermalink "/contact/") }}active{{ end }}">Contact</a></li>
+                </ul>
+            </div>
+            <div class="theme-toggle-group" id="theme-toggle-group">
+                <label class="theme-radio" title="Automatic Theme">
+                  <input type="radio" name="theme" value="auto">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="currentColor"></path>
+                    <circle cx="12" cy="12" r="10"></circle>
+                  </svg>
+                </label>
+                <label class="theme-radio" title="Light Theme">
+                  <input type="radio" name="theme" value="light">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                  </svg>
+                </label>
+                <label class="theme-radio" title="Dark Theme">
+                  <input type="radio" name="theme" value="dark">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="currentColor"></path>
+                  </svg>
+                </label>
+            </div>
+            <button class="menu-toggle" id="mobile-menu-btn" aria-label="Toggle Menu">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </button>
+        </nav>
+    </div>
+</header>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const header = document.getElementById('site-header');
+        
+        // Theme toggle logic
+        const themeRadios = document.querySelectorAll('input[name="theme"]');
+        const currentStored = localStorage.getItem('theme-mode') || 'auto';
+        
+        themeRadios.forEach(radio => {
+            if (radio.value === currentStored) radio.checked = true;
+            
+            radio.addEventListener('change', (e) => {
+                const mode = e.target.value;
+                localStorage.setItem('theme-mode', mode);
+                document.documentElement.setAttribute('data-theme-mode', mode);
+                
+                if (mode === 'auto') {
+                    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                    document.documentElement.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
+                } else {
+                    document.documentElement.setAttribute('data-theme', mode);
+                }
+            });
+        });
+        
+        // Scroll mechanics for floating header
+        const handleScroll = () => {
+            if (window.scrollY > 20) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        };
+        
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        handleScroll();
+
+        // Mobile drawer mechanics
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const closeBtn = document.getElementById('close-menu-btn');
+        const drawer = document.getElementById('nav-drawer');
+
+        menuBtn.addEventListener('click', () => {
+            drawer.classList.add('open');
+        });
+
+        closeBtn.addEventListener('click', () => {
+            drawer.classList.remove('open');
+        });
+
+        const links = drawer.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                drawer.classList.remove('open');
+            });
+        });
+    });
+</script>

@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="hero page-hero" style="background-color: var(--primary-color); border-radius: 16px; margin: 2rem 1rem; padding: 4rem 1rem; text-align: center;">
+  <div class="container">
+    <h1 style="font-size: 3rem; margin-bottom: 0;">{{ .Title }}</h1>
+    {{ if .Params.subtitle }}
+    <p style="font-size: 1.25rem; font-weight: 500; margin-top: 1rem;">{{ .Params.subtitle }}</p>
+    {{ end }}
+  </div>
+</div>
+<div class="page-content container" style="max-width: 800px; padding: 3rem; background-color: var(--bg-white); border-radius: 12px; margin-bottom: 4rem; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+  {{ .Content }}
+</div>
+{{ end }}
