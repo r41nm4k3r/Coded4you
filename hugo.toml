@@ -2,6 +2,4 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Good For You Web Services'
 theme = 'goodforyou-theme'
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+
