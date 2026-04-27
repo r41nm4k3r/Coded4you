@@ -1,4 +1,4 @@
-baseURL = 'https://r41nm4k3r.github.io/Good4you/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Good For You Web Services'
 theme = 'goodforyou-theme'

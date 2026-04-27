@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Good For You Web Services</title>
-    <link>http://localhost:1317/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Good For You Web Services</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1317/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3D Printing</title>
-      <link>http://localhost:1317/printing/</link>
+      <link>//localhost:1313/printing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1317/printing/</guid>
-      <description>Looking For 3D Printing in Los Angeles? Good For You Web Services is here to help. We offer fast and high quality 3D printing in a variety of materials and colors. Whether you are a business needing a custom replacement part printed, an individual wanting the latest fidget toy off Printables, or anything in between, we have the experience and expertise to produce a 3D print for you with unparalleled quality and strength!</description>
+      <guid>//localhost:1313/printing/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;looking-for-3d-printing-in-los-angeles&#34;&gt;Looking For 3D Printing in Los Angeles?&lt;/h2&gt;&#xA;&lt;p&gt;Good For You Web Services is here to help. We offer fast and high quality 3D printing in a variety of materials and colors. Whether you are a business needing a custom replacement part printed, an individual wanting the latest fidget toy off Printables, or anything in between, we have the experience and expertise to produce a 3D print for you with unparalleled quality and strength!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Frequently Asked Questions</title>
-      <link>http://localhost:1317/faq/</link>
+      <link>//localhost:1313/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1317/faq/</guid>
-      <description>What is your hourly rate? We don&amp;rsquo;t charge hourly for standard builds. You pay upfront for the predefined scope so there are no surprises!&#xA;How long does a website take? A standard Custom 5-page site typically takes 2-4 weeks from discovery to final deployment.&#xA;Do I own my website? Absolutely. We structure our contracts so that once the site is paid for, all code, assets, and design files are 100% yours.</description>
+      <guid>//localhost:1313/faq/</guid>
+      <description>&lt;h2 id=&#34;what-is-your-hourly-rate&#34;&gt;What is your hourly rate?&lt;/h2&gt;&#xA;&lt;p&gt;We don&amp;rsquo;t charge hourly for standard builds. You pay upfront for the predefined scope so there are no surprises!&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-long-does-a-website-take&#34;&gt;How long does a website take?&lt;/h2&gt;&#xA;&lt;p&gt;A standard Custom 5-page site typically takes 2-4 weeks from discovery to final deployment.&lt;/p&gt;&#xA;&lt;h2 id=&#34;do-i-own-my-website&#34;&gt;Do I own my website?&lt;/h2&gt;&#xA;&lt;p&gt;Absolutely. We structure our contracts so that once the site is paid for, all code, assets, and design files are 100% yours.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Send Us A Message</title>
-      <link>http://localhost:1317/contact/</link>
+      <link>//localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1317/contact/</guid>
-      <description> </description>
+      <guid>//localhost:1313/contact/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>Simple, Transparent Pricing</title>
-      <link>http://localhost:1317/pricing/</link>
+      <link>//localhost:1313/pricing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1317/pricing/</guid>
-      <description>We structure our pricing so that high-quality, custom web development is accessible to all small business owners.&#xA;Handcrafted Basic $1,500 Down&#xA;Ideal for localized service businesses that need a blazing fast, standard 5-page setup.&#xA;5 Pages Standard SEO Mobile Optimized Site Hosting &amp;amp; Maintenance Handcrafted Pro $3,000 Down&#xA;For businesses that require advanced layouts, content creation, and custom graphics.&#xA;10 Pages Custom Graphics Advanced SEO Premium Support </description>
+      <guid>//localhost:1313/pricing/</guid>
+      <description>&lt;p&gt;We structure our pricing so that high-quality, custom web development is accessible to all small business owners.&lt;/p&gt;&#xA;&lt;h2 id=&#34;handcrafted-basic&#34;&gt;Handcrafted Basic&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;$1,500 Down&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ideal for localized service businesses that need a blazing fast, standard 5-page setup.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;5 Pages&lt;/li&gt;&#xA;&lt;li&gt;Standard SEO&lt;/li&gt;&#xA;&lt;li&gt;Mobile Optimized&lt;/li&gt;&#xA;&lt;li&gt;Site Hosting &amp;amp; Maintenance&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;handcrafted-pro&#34;&gt;Handcrafted Pro&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;$3,000 Down&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;For businesses that require advanced layouts, content creation, and custom graphics.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;10 Pages&lt;/li&gt;&#xA;&lt;li&gt;Custom Graphics&lt;/li&gt;&#xA;&lt;li&gt;Advanced SEO&lt;/li&gt;&#xA;&lt;li&gt;Premium Support&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Who we are</title>
-      <link>http://localhost:1317/about/</link>
+      <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1317/about/</guid>
-      <description>Nick Cunningham is a web developer bringing bespoke, high-quality, hand-coded websites to small businesses. We pride ourselves on creating digital experiences that are good for you, your users, and your business&amp;rsquo;s success.&#xA;Our Process Discovery: Learning about the business and exploring your goals. Design: Creating a custom look tailored to your specific user base. Development: Hand-coding the site from scratch without builders or templates. Testing: Ensuring everything works blazingly fast on all devices.</description>
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;p&gt;Nick Cunningham is a web developer bringing bespoke, high-quality, hand-coded websites to small businesses. We pride ourselves on creating digital experiences that are good for you, your users, and your business&amp;rsquo;s success.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-process&#34;&gt;Our Process&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Discovery&lt;/strong&gt;: Learning about the business and exploring your goals.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Design&lt;/strong&gt;: Creating a custom look tailored to your specific user base.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Development&lt;/strong&gt;: Hand-coding the site from scratch without builders or templates.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Testing&lt;/strong&gt;: Ensuring everything works blazingly fast on all devices.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Launch&lt;/strong&gt;: Going live and supporting your business growth!&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>
 </rss>

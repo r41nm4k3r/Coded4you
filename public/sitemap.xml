@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1317/printing/</loc>
+    <loc>//localhost:1313/printing/</loc>
   </url><url>
-    <loc>http://localhost:1317/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1317/faq/</loc>
+    <loc>//localhost:1313/faq/</loc>
   </url><url>
-    <loc>http://localhost:1317/</loc>
+    <loc>//localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:1317/contact/</loc>
+    <loc>//localhost:1313/contact/</loc>
   </url><url>
-    <loc>http://localhost:1317/pricing/</loc>
+    <loc>//localhost:1313/pricing/</loc>
   </url><url>
-    <loc>http://localhost:1317/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url><url>
-    <loc>http://localhost:1317/about/</loc>
+    <loc>//localhost:1313/about/</loc>
   </url>
 </urlset>
