@@ -26,7 +26,7 @@ body {
   color: var(--text-dark);
   background-color: var(--bg-light);
   line-height: 1.6;
-  padding-top: 7rem; /* Make room for floating header */
+  padding-top: 5rem; /* Make room for floating header */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,7 +54,7 @@ img {
 
 header {
   background-color: var(--primary-color);
-  height: 4rem;
+  height: 5rem;
   display: flex;
   align-items: center;
   position: fixed;
