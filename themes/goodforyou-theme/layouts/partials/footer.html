@@ -23,12 +23,12 @@
       <div class="footer-quick-links">
         <h2>Quick Links</h2>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about/">About</a></li>
-          <li><a href="/pricing/">Pricing</a></li>
-          <li><a href="/faq/">FAQ</a></li>
-          <li><a href="/contact/">Contact</a></li>
-          <li><a href="/printing/">3D Printing</a></li>
+          <li><a href="{{ .Site.Home.RelPermalink }}">Home</a></li>
+          <li><a href="{{ "/about/" | relLangURL }}">About</a></li>
+          <li><a href="{{ "/pricing/" | relLangURL }}">Pricing</a></li>
+          <li><a href="{{ "/faq/" | relLangURL }}">FAQ</a></li>
+          <li><a href="{{ "/contact/" | relLangURL }}">Contact</a></li>
+          <li><a href="{{ "/printing/" | relLangURL }}">3D Printing</a></li>
         </ul>
       </div>
       <div class="footer-legal-links">
