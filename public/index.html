@@ -1,16 +1,1231 @@
-<!doctype html><html lang=en-us><head><meta name=generator content="Hugo 0.152.2"><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Code For You Web Services</title><link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat:wght@400;700&family=Noto+Sans:wght@400;700&display=swap" rel=stylesheet><link rel=stylesheet href=/Coded4you/css/style.css><script>const storedThemeMode=localStorage.getItem("theme-mode")||"auto";if(document.documentElement.setAttribute("data-theme-mode",storedThemeMode),storedThemeMode==="auto"){const e=window.matchMedia("(prefers-color-scheme: dark)").matches;document.documentElement.setAttribute("data-theme",e?"dark":"light")}else document.documentElement.setAttribute("data-theme",storedThemeMode)</script></head><body><header id=site-header><div class="container header-inner"><a href=/Coded4you/ class=logo><div class=logo-icon><svg width="40" height="40" viewBox="0 0 960 1024" style="fill-rule:evenodd;clip-rule:evenodd"><path d="M480 0c269.652.0 480 190.715 480 4e2-1.113 87.192-40.791 272.72-55.032 337-15.234 68.765-57.024 111.215-128.407 120-39.051 4.086-60.291 27.163-65.223 64l-4.077 70c-1.019 24-15.962 33-39.745 33H292.484c-23.783.0-38.726-9-39.745-33l-4.077-70c-4.932-36.837-26.172-59.914-65.223-64-71.383-8.785-113.173-51.235-128.407-120-14.241-64.28-53.919-249.808-55.032-337 0-209.285 210.348-4e2 480-4e2zm327.48 613.579 9-51.5-155-105-12.5 70 89 61-110 60-12.5 70 192-104.5zm-363.23 102.75L568 457.079h-52l-124 259.25h52.25zm-145.73 1.75 12.5-70-89-60 110.5-61 12-70-192 105-9 51.5 155 104.5zm109.107 183.18c-14.961-3.743-29.362-8.684-43.205-14.823-13.806-5.926-22.698-10.188-26.676-12.787-4.192-2.561-7.417-4.632-9.676-6.214l-12.282 46.387 10.166 7.118c15.913 10.395 42.338 21.136 79.275 32.224 17.646 5.249 39.12 8.502 64.423 9.761 25.341 1.472 50.067.082 74.178-4.169 24.112-4.252 46.014-10.424 65.708-18.517 19.732-7.879 32.447-13.751 38.146-17.616 5.736-3.652 10.054-6.613 12.954-8.885l-28.648-46.43-3.766 2.974c-5.837 4.329-16.544 9.737-32.121 16.224-7.342 3.275-16.769 6.587-28.279 9.937-11.259 3.525-25.743 6.849-43.453 9.972-17.497 3.085-37.579 3.986-60.246 2.702-22.667-1.283-41.5-3.903-56.498-7.858z" fill="currentColor"/></svg></div><div class=logo-text-wrapper><span class=logo-text-main>Coded For You</span>
-<span class=logo-text-sub>Web Services</span></div></a><nav style=display:flex;align-items:center;gap:2rem><div class=nav-drawer id=nav-drawer><button class=close-menu id=close-menu-btn aria-label="Close Menu">
-<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button><ul class=nav-menu><li><a href=https://r41nm4k3r.github.io/Coded4you/ class=active>Home</a></li><li><a href=https://r41nm4k3r.github.io/Coded4you/about/>About</a></li><li style=position:relative class=dropdown-wrapper><a href=# style=display:flex;align-items:center;gap:.2rem>Services <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></a><ul class=dropdown-menu style="display:none;position:absolute;top:100%;left:0;background:var(--bg-white);border-radius:8px;padding:1rem;box-shadow:0 4px 12px rgba(0,0,0,.1);flex-direction:column;gap:1rem;min-width:150px;z-index:100"><li><a href=https://r41nm4k3r.github.io/Coded4you/#services style=font-weight:400;font-size:1rem>Web
-Design</a></li><li><a href=https://r41nm4k3r.github.io/Coded4you/printing/ style=font-weight:400;font-size:1rem>3D Printing</a></li></ul></li><li><a href=https://r41nm4k3r.github.io/Coded4you/faq/>FAQ</a></li><li><a href=https://r41nm4k3r.github.io/Coded4you/pricing/>Pricing</a></li><li><a href=https://r41nm4k3r.github.io/Coded4you/contact/>Contact</a></li></ul><div class=mobile-theme-toggle><div class=theme-toggle-group><label class=theme-radio title="Automatic Theme"><input type=radio name=theme-mobile value=auto>
-<svg class="bi bi-circle-half" width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M8 15A7 7 0 108 1zm0 1A8 8 0 118 0a8 8 0 010 16"/></svg>
-</label><label class=theme-radio title="Light Theme"><input type=radio name=theme-mobile value=light>
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-</label><label class=theme-radio title="Dark Theme"><input type=radio name=theme-mobile value=dark>
-<svg class="bi bi-moon-fill" width="24" height="24" viewBox="0 0 16 16" fill="currentColor"><path d="M6 .278a.77.77.0 01.08.858 7.2 7.2.0 00-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79.0 01.81.316.73.73.0 01-.031.893A8.35 8.35.0 018.344 16C3.734 16 0 12.286.0 7.71.0 4.266 2.114 1.312 5.124.06A.75.75.0 016 .278" fill="currentColor"/></svg></label></div></div></div><button class=menu-toggle id=mobile-menu-btn aria-label="Toggle Menu">
-<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button></nav></div></header><script>document.addEventListener("DOMContentLoaded",()=>{const t=document.getElementById("site-header"),n=document.querySelectorAll('input[name="theme"], input[name="theme-mobile"]'),i=localStorage.getItem("theme-mode")||"auto",s=e=>{n.forEach(t=>{t.value===e&&(t.checked=!0)})};s(i),n.forEach(e=>{e.addEventListener("change",e=>{const t=e.target.value;if(s(t),localStorage.setItem("theme-mode",t),document.documentElement.setAttribute("data-theme-mode",t),t==="auto"){const e=window.matchMedia("(prefers-color-scheme: dark)").matches;document.documentElement.setAttribute("data-theme",e?"dark":"light")}else document.documentElement.setAttribute("data-theme",t)})});const o=()=>{window.scrollY>20?t.classList.add("scrolled"):t.classList.remove("scrolled")};window.addEventListener("scroll",o,{passive:!0}),o();const a=document.getElementById("mobile-menu-btn"),r=document.getElementById("close-menu-btn"),e=document.getElementById("nav-drawer");a.addEventListener("click",()=>{e.classList.add("open")}),r.addEventListener("click",()=>{e.classList.remove("open")});const c=e.querySelectorAll("a");c.forEach(t=>{t.addEventListener("click",()=>{e.classList.remove("open")})})})</script><main><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css><script src=https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js></script><section class=hp-hero><div class="hp-hero__inner container"><div class=hp-hero__text><div class=hp-hero__heading><p class=hp-hero__kicker>Bespoke, Personal</p><h1 class=hp-hero__title>Web Design & Development</h1><p class=hp-hero__sub-kicker>for your</p><h2 class=hp-hero__title>Small Business</h2></div><div class=hp-hero__body><p>We make websites that are good for you and your business - that's why we craft & code each project from the ground up by hand.</p><p>No templates, no site builders, no AI generated content - your website should be as unique as your business is.</p></div><div class=hp-hero__buttons><a href=https://r41nm4k3r.github.io/Coded4you/contact/ class=cta-button id=contact-button-1>Get Started</a></div></div><div class=hp-hero__image><img src="https://goodforyou.services/.netlify/images/?url=/images/mockups/mockup-vhcp-light.png&q=90&w=768" alt="Website displayed on multiple devices"></div></div></section><section class=section-white><div class=container style=max-width:868px;text-align:center><h2 style=font-size:1.125rem;font-weight:400;letter-spacing:.125rem;color:#222;margin-bottom:.5rem class=mission-text>What Can We Do For You?</h2><h3 style=font-size:2.25rem;font-weight:600;color:#222;margin-bottom:.75rem class=mission-text>Take a load off!</h3><p style=margin-top:.75rem;margin-bottom:1.375rem;line-height:1.25;color:#222;font-size:1.1rem class=mission-text>Running a small business has you wearing multiple hats all the time - trust me I know! Making a website is one thing, making a <strong>good</strong> website is another. Often times its unreasonable for you to manage your business's online presence completely independently.</p><h3 style=font-size:2.25rem;font-weight:600;color:#222 class=mission-text>That's where we come in!</h3><p style=margin-top:.75rem;margin-bottom:1.375rem;line-height:1.25;color:#222;font-size:1.1rem class=mission-text>Here at Code For You Web Services, we are hyper focused on catering to small businesses and their needs. We know the tricks to the trade to craft a website that is fast, secure, and search engine optimized. We handle the details and minutia of making the best website for your business so you don't have to. That means you'll have more time to focus on running your business.</p></div></section><style>[data-theme=dark] .mission-text{color:#fff!important}</style><section class="hp-features section-white"><div class=container><div class=hp-feature-cards><div class=hp-feature-card><div class=hp-feature-icon-wrapper><div class=hp-feature-icon><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div></div><div class=hp-feature-content-wrapper><h3 class=hp-feature-heading>Mobile First Design</h3><p class=hp-feature-content>Your customers are going to visit your website on their mobile devices. To ensure the best experience, our websites are developed with an optimized mobile experience as a first priority - never as an afterthought.</p></div></div><div class=hp-feature-card><div class=hp-feature-icon-wrapper><div class=hp-feature-icon><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div></div><div class=hp-feature-content-wrapper><h3 class=hp-feature-heading>Responsive Design</h3><p class=hp-feature-content>Your website needs to look great on any screen - phones, tablets, laptops, maybe even a projector! We build your website to dynamically adjust and scale your content depending on the size of the screen it is being viewed on.</p></div></div><div class=hp-feature-card><div class=hp-feature-icon-wrapper><div class=hp-feature-icon><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg></div></div><div class=hp-feature-content-wrapper><h3 class=hp-feature-heading>Secure By Default</h3><p class=hp-feature-content>We deploy our sites globally using static architecture so bad actors will never try to take advantage of people visiting your website. Additionally, all of our websites are maintained with regular security updates.</p></div></div><div class=hp-feature-card><div class=hp-feature-icon-wrapper><div class=hp-feature-icon><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div></div><div class=hp-feature-content-wrapper><h3 class=hp-feature-heading>SEO Optimized</h3><p class=hp-feature-content>What good is it to have a website if no one is looking at it? We use a combination of best practices, metadata tags, and server-side rendering to ensure your website is ranked highly with Google so new customers can easily find your business online.</p></div></div><div class=hp-feature-card><div class=hp-feature-icon-wrapper><div class=hp-feature-icon><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div></div><div class=hp-feature-content-wrapper><h3 class=hp-feature-heading>Fast</h3><p class=hp-feature-content>Speed matters. Our websites are built with performance in mind, using clean code and optimized assets to ensure lightning-fast load times. Your visitors won't wait around for slow pages - and neither should you.</p></div></div><div class=hp-feature-card><div class=hp-feature-icon-wrapper><div class=hp-feature-icon><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></div></div><div class=hp-feature-content-wrapper><h3 class=hp-feature-heading>Dark Theme</h3><p class=hp-feature-content>We include a built-in dark theme option for your website, allowing visitors to switch between light and dark modes based on their preference. This improves user experience and reduces eye strain for night-time browsing.</p></div></div></div><div style=text-align:center;margin-top:6rem><a href=https://r41nm4k3r.github.io/Coded4you/contact/ class="cta-button cta-button-inverse">Get Started</a></div></div></section><section class="hp-overview section-white"><div class="container hp-overview__inner"><div class=hp-overview__profile><div class=hp-overview__profile-wrapper><div class=hp-overview__caption-wrapper><img class=hp-overview__profile-image src=https://goodforyou.services/images/profiles/ncunningham.webp alt="Nny, founder of Coded For You Web Services"><div class=hp-overview__caption><div class=hp-overview__caption-text><span>Nny</span>
-<span style=font-size:.85rem;font-weight:400>Founder & Developer</span></div><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="color:var(--primary-color);flex-shrink:0"><path d="M14 9V5a3 3 0 00-3-3l-4 9v11h11.28a2 2 0 002-1.7l1.38-9a2 2 0 00-2-2.3H14z"/><path d="M7 22H4a2 2 0 01-2-2v-7a2 2 0 012-2h3"/></svg></div></div></div></div><div class=hp-overview__content><h2 class=hp-overview__heading>Coded For You</h2><p class=hp-overview__subheading>websites are crafted for your business</p><p class=hp-overview__blurb>We are a small business ourselves, so we know firsthand what it takes to build an online presence that works for you. Every project is handled personally from design to launch.</p><div class=hp-overview__points><div class=hp-overview__point><h3 class=hp-overview__point-heading><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:inline;vertical-align:top;color:var(--primary-color);margin-right:.5rem"><polyline points="20 6 9 17 4 12"/></svg>
-$0 Down</h3><p>Start your website with no upfront cost. Pay a low monthly fee and get a professionally built website.</p></div><div class=hp-overview__point><h3 class=hp-overview__point-heading><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:inline;vertical-align:top;color:var(--primary-color);margin-right:.5rem"><polyline points="20 6 9 17 4 12"/></svg>
-Hand Crafted</h3><p>No templates, no drag-and-drop builders. Every line of code is written from scratch for your unique business.</p></div><div class=hp-overview__point><h3 class=hp-overview__point-heading><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:inline;vertical-align:top;color:var(--primary-color);margin-right:.5rem"><polyline points="20 6 9 17 4 12"/></svg>
-Always Supported</h3><p>We provide ongoing support and maintenance, so your site is always up to date and running smoothly.</p></div><div class=hp-overview__point><h3 class=hp-overview__point-heading><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:inline;vertical-align:top;color:var(--primary-color);margin-right:.5rem"><polyline points="20 6 9 17 4 12"/></svg>
-Money Back Guarantee</h3><p>We will make something you'll love or your money back - no questions asked.</p></div></div></div></div></section><section class=hp-testimonials-section><div class=hp-testimonials-wrapper><div class=hp-testimonials-heading><div>What Our Clients Said</div><div>Coded For You</div></div><div class=hp-testimonials-carousel><div class=splide id=testimonials-splide><div class=splide__track><div class=splide__list><div class=splide__slide><div class=hp-testimonial-card><div class=hp-tc-image><img src="https://goodforyou.services/.netlify/images/?url=/images/mockups/mockup-wpl-light.png&q=90&w=540" alt="Wealth Protection Lady website"></div><div class=hp-tc-info><div class=hp-tc-body><div>Working with Nick at Good for You Web Services was an absolute pleasure! He built a beautiful, functional, and user-friendly website that exceeded my expectations. His attention to detail, creativity, and technical expertise made the entire process smooth and efficient. Communication was excellent, and he was always responsive to my feedback and ideas.</div></div><div class=hp-tc-signature><a class=hp-tc-company href=https://wealthprotectionlady.com target=_blank rel=noopener>Wealth Protection Lady</a><div class=hp-tc-date><span>Reviewed </span><span>September 2024</span></div></div></div></div></div><div class=splide__slide><div class=hp-testimonial-card><div class=hp-tc-image><img src="https://goodforyou.services/.netlify/images/?url=/images/mockups/mockup-vhcp-light.png&q=90&w=540" alt="Client website example"></div><div class=hp-tc-info><div class=hp-tc-body><div>Nick was a pleasure to work with from start to finish. He took time to understand my vision and delivered a website that truly represents my brand. The entire process was professional, timely, and stress-free. I couldn't be happier with results!</div></div><div class=hp-tc-signature><a class=hp-tc-company href=https://r41nm4k3r.github.io/Coded4you/contact/ target=_blank rel=noopener>A Happy Client</a><div class=hp-tc-date><span>Reviewed </span><span>2024</span></div></div></div></div></div></div></div></div></div></div></section><style>.hp-testimonials-section{background-color:#e8e9ea;padding:0}[data-theme=dark] .hp-testimonials-section{background-color:#222}.hp-testimonials-wrapper{padding:3rem 1rem;max-width:1440px;margin:0 auto}.hp-testimonials-heading{margin-bottom:1.5rem;font-family:montserrat,sans-serif;font-weight:600;font-size:1.25rem;color:var(--text-dark)}[data-theme=dark] .hp-testimonials-heading{color:var(--primary-color)}.hp-testimonials-heading div:first-child{font-size:1.25rem;color:var(--text-dark)}[data-theme=dark] .hp-testimonials-heading div:first-child{color:var(--primary-color)}.hp-testimonials-heading div:nth-child(2){font-size:2.5rem;font-family:fugaz one,cursive;color:var(--primary-color)}[data-theme=dark] .hp-testimonials-heading div:nth-child(2){color:var(--text-dark)}.hp-testimonial-card{--card-width:100%;--card-gap:2rem;position:relative;min-width:var(--card-width);border-radius:1rem;background-color:#d5d6d8;display:grid;align-items:center;justify-items:center;gap:1rem 2rem;padding:1rem;transition:transform .25s linear,box-shadow .25s linear}[data-theme=dark] .hp-testimonial-card{background-color:#2e2e2e}@media(min-width:768px){.hp-testimonial-card{--card-width:100%;min-width:var(--card-width);max-width:var(--card-width)}.hp-testimonial-card[data-current=true]{box-shadow:0 0 .5rem rgba(0,0,0,.25)}}@media(min-width:1024px){.hp-testimonial-card{grid-template-columns:repeat(2,1fr)}}.hp-tc-image{width:100%;height:100%;align-content:center}.hp-tc-image img{max-width:min(100%,640px);margin:0 auto;border-radius:.5rem;display:block}.hp-tc-info{display:flex;flex-direction:column;width:100%;height:100%;margin:1rem;padding-top:2.5rem}.hp-tc-body{flex-grow:1;position:relative;display:block;align-content:center;margin-bottom:2rem;font-family:montserrat,sans-serif;font-weight:500}.hp-tc-body>div{padding:0 .75rem;font-style:italic;line-height:1.5}.hp-tc-signature{height:4rem;text-align:right}.hp-tc-company{font-weight:600;text-decoration:none;color:#1e90ff}.hp-tc-company:hover{text-decoration:underline;text-decoration-thickness:.125rem}.hp-tc-date{margin-top:.25rem;font-size:.8rem;font-style:italic}.hp-tc-date span:nth-of-type(1){font-weight:300}.hp-tc-date span:nth-of-type(2){font-weight:500}#testimonials-splide .splide__slide{height:auto;display:flex;align-items:stretch}#testimonials-splide .splide__slide .hp-testimonial-card{height:100%;min-height:400px}</style><script>document.addEventListener("DOMContentLoaded",function(){new Splide("#testimonials-splide",{perPage:1,type:"loop",gap:"1rem",padding:"5rem",arrows:!0,pagination:!0,autoplay:!1,speed:500,easing:"ease-in-out"}).mount()})</script><section class="hp-performance section-white" style=background-color:var(--primary-color)><div class="container hp-performance__inner"><div class=hp-performance__text><div class=hp-performance__heading><p style=font-weight:600;font-size:1.25rem;font-family:montserrat,sans-serif;color:var(--dark-accent)>Performance</p><p style="font-size:3.25rem;font-family:fugaz one,cursive;color:var(--dark-accent);line-height:1.1">Good For You</p><p style=font-size:1.75rem;font-weight:600;font-style:italic;color:var(--dark-accent);margin-top:-.5rem>websites are <span style="font-size:2rem;font-weight:800;font-style:italic;color:#f4f4f4;text-shadow:2px 2px 4px rgba(0,0,0,.699)">fast.</span></p></div><p class=hp-performance__blurb style=margin-bottom:2rem;line-height:1.25;color:var(--dark-accent)>No bloated site builders, page editors, or unnecessary plugins installed. Just clean, efficient code that is easy to maintain and extremely fast to load. Our websites regularly score a perfect 100 on Google's Lighthouse performance audit.</p><a href=https://r41nm4k3r.github.io/Coded4you/contact/ class=cta-button style=background-color:var(--dark-accent);color:var(--primary-color)>Get Started</a></div><div class=hp-performance__image><img src="https://goodforyou.services/.netlify/images/?url=/images/pages/home/page-speed.png&q=90&w=768" alt="Google Lighthouse Perfect Score 100/100" style=border-radius:1rem></div></div></section><style>.hp-hero{padding-top:3rem;padding-bottom:0}.hp-hero__inner{display:grid;gap:3rem;padding:1.5rem;border-radius:1rem;background:var(--primary-color);color:var(--dark-accent);margin-bottom:1rem;align-items:center}@media(min-width:1024px){.hp-hero__inner{grid-template-columns:repeat(2,1fr);gap:3.5rem;padding:2.5rem 2rem}}@media(min-width:1280px){.hp-hero__inner{padding:3rem 2rem;background:var(--primary-color)}.hp-hero__heading{text-align:left!important}.hp-hero__body{text-align:left!important;font-size:1.25rem}.hp-hero__buttons{text-align:left!important}}.hp-hero__heading{text-align:center;margin-bottom:.5rem}.hp-hero__kicker{font-size:1.25rem;letter-spacing:.25rem;line-height:.5;margin:0 0 .25rem;color:var(--dark-accent)}.hp-hero__title{font-size:2.5rem;font-weight:700;margin:0;font-family:montserrat,sans-serif;color:var(--dark-accent)}.hp-hero__sub-kicker{font-size:1.25rem;font-style:italic;letter-spacing:.25rem;line-height:.5;margin:.25rem 0;color:var(--dark-accent)}.hp-hero__title2{font-size:2.5rem;font-weight:700;margin:0;font-family:montserrat,sans-serif;color:var(--dark-accent)}[data-theme=dark] .hp-hero__title2{color:var(--primary-color)}@media(min-width:1280px){.hp-hero__title,.hp-hero__title2{font-size:3rem}}.hp-hero__body{text-align:center;line-height:1.25}.hp-hero__body p{margin-bottom:.375rem}.hp-hero__buttons{margin-top:1.5rem;text-align:center}.hp-hero__buttons .cta-button{background-color:var(--dark-accent);color:var(--primary-color)}.hp-hero__buttons .cta-button:hover{background-color:var(--primary-color);color:var(--dark-accent);border:2px solid var(--dark-accent)}.hp-hero__image{align-content:center}.hp-hero__image img{margin:0 auto;max-width:min(100%,640px);filter:drop-shadow(.125rem .5rem .75rem rgba(0,0,0,.4))}.hp-features{padding:4rem 0}.hp-feature-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin:2rem 0 4rem;align-items:stretch}@media(max-width:767px){.hp-feature-cards{grid-template-columns:1fr;justify-content:center;gap:4rem}.hp-feature-card{margin:2.5rem auto 0}}@media(min-width:768px){.hp-feature-cards{grid-template-columns:repeat(2,1fr);gap:4rem;align-items:stretch}}@media(min-width:1024px){.hp-feature-cards{grid-template-columns:repeat(3,1fr);gap:4rem;align-items:stretch}}.hp-feature-card{position:relative;z-index:0;width:100%;max-width:375px;margin-top:2.5rem;border-radius:1.125rem;background-color:#f8f9fa;box-shadow:0 4px 6px rgba(0,0,0,.15);transition:background-color .25s ease-in-out,color .25s ease-in-out;opacity:0;transform:translateY(20px);transition:opacity .5s ease,transform .5s ease,background-color .25s ease-in-out;display:flex;flex-direction:column;height:100%}[data-theme=dark] .hp-feature-card{background-color:#2e2e2e}.hp-feature-card.visible{opacity:1;transform:translateY(0)}.hp-feature-card:nth-child(1){transition-delay:.05s}.hp-feature-card:nth-child(2){transition-delay:.15s}.hp-feature-card:nth-child(3){transition-delay:.25s}.hp-feature-card:nth-child(4){transition-delay:.35s}.hp-feature-card:nth-child(5){transition-delay:.45s}.hp-feature-card:nth-child(6){transition-delay:.55s}.hp-feature-icon-wrapper{position:absolute;top:-2.5rem;width:100%;text-align:center}.hp-feature-icon{height:5rem;width:5rem;margin:0 auto;padding:1.25rem;border-radius:1.125rem;background-color:var(--primary-color);color:var(--dark-accent);display:flex;align-items:center;justify-content:center;transition:background-color .25s ease-in-out,box-shadow .25s ease-in-out}.hp-feature-content-wrapper{flex:1;padding:2.5rem 0;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between}.hp-feature-content-wrapper::before{content:"";position:absolute;z-index:-1;top:0;left:0;height:0%;width:100%;border-radius:1.125rem;background-color:#f9e198;transition:height .15s ease-in-out}.hp-feature-heading{margin:1rem 2rem;text-align:center;font-size:1.5rem;font-weight:600;font-family:montserrat,sans-serif;color:var(--dark-accent);transition:color .15s ease-in-out}[data-theme=dark] .hp-feature-heading{color:var(--primary-color)}.hp-feature-content{margin:0 2rem;text-align:center;line-height:1.5;color:var(--text-dark);font-size:.95rem;transition:color .15s ease-in-out}.hp-feature-card:hover .hp-feature-icon{background-color:#f2f3f4;box-shadow:0 0 1rem rgba(0,0,0,.2)}.hp-feature-card:hover .hp-feature-content-wrapper::before{height:100%}.hp-feature-card:hover .hp-feature-heading{color:#1b1b1b}[data-theme=dark] .hp-feature-card:hover .hp-feature-heading{color:#1b1b1b}.hp-feature-card:hover .hp-feature-content{color:#1b1b1b}[data-theme=dark] .hp-feature-card:hover .hp-feature-content{color:#1b1b1b}.hp-testimonial{padding:3rem 0}.hp-testimonial-card{display:grid;align-items:stretch;justify-items:center;gap:1rem 2rem;padding:1rem;border-radius:1rem;background-color:#d5d6d8}[data-theme=dark] .hp-testimonial-card{background-color:#2e2e2e}@media(min-width:1024px){.hp-testimonial-card{grid-template-columns:repeat(2,1fr)}}.hp-testimonial-image img{max-width:min(100%,640px);margin:0 auto;border-radius:.75rem}.hp-testimonial-info{display:flex;flex-direction:column;width:100%;height:100%;margin:1rem;padding-top:2.5rem;justify-content:space-between}.hp-testimonial-body{flex-grow:1;position:relative;display:block;align-content:center;margin-bottom:2rem;font-family:montserrat,sans-serif;font-weight:500}.hp-testimonial-body>div{padding:0 .75rem;font-style:italic;line-height:1.6}.hp-testimonial-body>div:first-letter{float:left;padding:.35rem .375rem 0 0;font-size:2.5rem;font-weight:600}.hp-testimonial-signature{height:2.5rem;text-align:right}.hp-testimonial-company{font-weight:600;text-decoration:none;color:#1e90ff}.hp-testimonial-company:hover{text-decoration:underline}.hp-testimonial-date{margin-top:.25rem;font-size:.8rem;font-style:italic}.hp-testimonial-date span:nth-of-type(1){font-weight:300}.hp-testimonial-date span:nth-of-type(2){font-weight:500}.hp-overview{padding:3rem 0 .1rem}.hp-overview__inner{display:grid;align-items:stretch;justify-items:center;gap:4rem 3rem;margin-bottom:4rem}@media(min-width:1024px){.hp-overview__inner{grid-template-columns:1fr 1.2fr;align-items:stretch;gap:5rem 4rem}.hp-overview__content{text-align:left;display:flex;flex-direction:column;justify-content:flex-start;height:100%}.hp-overview__points{padding:0}}.hp-overview__profile{width:100%}.hp-overview__profile-wrapper{max-width:540px;margin:0 auto}.hp-overview__caption-wrapper{position:relative}.hp-overview__profile-image{width:100%;border-radius:4rem 4rem 1rem;display:block}.hp-overview__caption{position:absolute;bottom:1rem;right:1rem;display:flex;flex-flow:row nowrap;align-items:center;gap:.75rem;padding:.5rem 1rem;border-radius:1rem;background-color:#f2f3f4;color:#1b1b1b;box-shadow:0 4px 16px rgba(0,0,0,.15)}@media(min-width:1024px){.hp-overview__caption{padding:1rem 2rem}}.hp-overview__caption-text{display:flex;flex-direction:column;margin-right:1rem}.hp-overview__caption-text span:first-child{font-family:montserrat,sans-serif;font-weight:600;font-size:1rem}.hp-overview__content{text-align:center}.hp-overview__heading{margin-bottom:1rem;font-family:montserrat,sans-serif;font-weight:600;font-size:2.75rem;color:var(--dark-accent)}[data-theme=dark] .hp-overview__heading{color:var(--primary-color)}.hp-overview__subheading{color:var(--primary-color);font-family:montserrat,sans-serif;font-weight:600;font-size:1.25rem;margin-bottom:1rem}[data-theme=dark] .hp-overview__subheading{color:var(--text-dark)}.hp-overview__blurb{margin-bottom:1.5rem;line-height:1.25;color:var(--text-dark)}.hp-overview__points{padding:0 1rem;text-align:left}@media(min-width:640px){.hp-overview__points{display:grid;grid-template-columns:repeat(2,1fr);column-gap:2rem}}.hp-overview__point{margin-bottom:2rem}.hp-overview__point-heading{margin-bottom:.75rem;font-family:montserrat,sans-serif;font-weight:600;font-size:1.25rem;color:var(--dark-accent);display:flex;align-items:flex-start;gap:.4rem}[data-theme=dark] .hp-overview__point-heading{color:var(--primary-color)}.hp-overview__point p{font-size:.95rem;line-height:1.4;color:var(--text-dark)}.hp-performance{padding:3rem 0}.hp-performance__inner{display:grid;gap:3rem;padding:3rem 0;align-items:center}@media(min-width:1024px){.hp-performance__inner{grid-template-columns:1.2fr 1fr;gap:4rem;align-items:center}}.hp-performance__image{margin:1rem auto;width:100%;max-width:640px}</style><script>document.addEventListener("DOMContentLoaded",function(){const e=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&e.target.classList.add("visible")})},{threshold:.15});document.querySelectorAll(".hp-feature-card").forEach(t=>e.observe(t))})</script></main><footer class=site-footer><div class=footer-content><div class=footer-hero><a href=https://r41nm4k3r.github.io/Coded4you/ class=footer-logo><div class=footer-logo-image><svg width="64" height="64" viewBox="0 0 960 1024" style="fill-rule:evenodd;clip-rule:evenodd"><path d="M480 0c269.652.0 480 190.715 480 4e2-1.113 87.192-40.791 272.72-55.032 337-15.234 68.765-57.024 111.215-128.407 120-39.051 4.086-60.291 27.163-65.223 64l-4.077 70c-1.019 24-15.962 33-39.745 33H292.484c-23.783.0-38.726-9-39.745-33l-4.077-70c-4.932-36.837-26.172-59.914-65.223-64-71.383-8.785-113.173-51.235-128.407-120-14.241-64.28-53.919-249.808-55.032-337 0-209.285 210.348-4e2 480-4e2zm327.48 613.579 9-51.5-155-105-12.5 70 89 61-110 60-12.5 70 192-104.5zm-363.23 102.75L568 457.079h-52l-124 259.25h52.25zm-145.73 1.75 12.5-70-89-60 110.5-61 12-70-192 105-9 51.5 155 104.5zm109.107 183.18c-14.961-3.743-29.362-8.684-43.205-14.823-13.806-5.926-22.698-10.188-26.676-12.787-4.192-2.561-7.417-4.632-9.676-6.214l-12.282 46.387 10.166 7.118c15.913 10.395 42.338 21.136 79.275 32.224 17.646 5.249 39.12 8.502 64.423 9.761 25.341 1.472 50.067.082 74.178-4.169 24.112-4.252 46.014-10.424 65.708-18.517 19.732-7.879 32.447-13.751 38.146-17.616 5.736-3.652 10.054-6.613 12.954-8.885l-28.648-46.43-3.766 2.974c-5.837 4.329-16.544 9.737-32.121 16.224-7.342 3.275-16.769 6.587-28.279 9.937-11.259 3.525-25.743 6.849-43.453 9.972-17.497 3.085-37.579 3.986-60.246 2.702-22.667-1.283-41.5-3.903-56.498-7.858z" fill="currentColor"/></svg></div><div class=footer-logo-text><span class=footer-logo-heading>Coded For You</span>
-<span class=footer-logo-subheading>Web Services</span></div></a></div><div class=footer-quote><p>Let us build a website that is<br><strong><em>coded just for you</em></strong><br>and<br><strong><em>your business.</em></strong></p></div><div class=footer-links><div class=footer-quick-links><h2>Quick Links</h2><ul><li><a href=https://r41nm4k3r.github.io/Coded4you/>Home</a></li><li><a href=https://r41nm4k3r.github.io/Coded4you/about/>About</a></li><li><a href=https://r41nm4k3r.github.io/Coded4you/pricing/>Pricing</a></li><li><a href=https://r41nm4k3r.github.io/Coded4you/faq/>FAQ</a></li><li><a href=https://r41nm4k3r.github.io/Coded4you/contact/>Contact</a></li><li><a href=https://r41nm4k3r.github.io/Coded4you/printing/>3D Printing</a></li></ul></div><div class=footer-legal-links><hr><ul><li><a href=/privacy/>Privacy Policy</a></li><li><a href=/terms/>Terms of Service</a></li></ul></div></div></div><div class=footer-copyright><span class=footer-copyright-text>&copy; 2026 Coded For You Web Services. All rights reserved.</span></div></footer><style>.site-footer{width:100%;background-color:#151515;color:#f2f3f4;padding:0}.footer-content{max-width:1440px;display:block;padding:1rem}@media(min-width:1024px){.footer-content{display:grid;grid-template-columns:repeat(3,1fr);margin:0 4rem;padding:0;max-width:none}}@media(min-width:1440px){.footer-content{margin:0 auto;max-width:1440px}}.footer-hero{padding:2rem 0;text-align:center}@media(min-width:1024px){.footer-hero{text-align:left}}.footer-logo{display:inline-block;width:fit-content;text-align:center;text-decoration:none;color:#f2f3f4}@media(min-width:1024px){.footer-logo{display:flex;flex-direction:column;justify-content:center;height:100%;text-align:left}}.footer-logo-image{display:inline-block;height:64px;width:64px;max-height:64px;margin:1rem auto;color:#f2f3f4}.footer-logo-text{display:block}.footer-logo-heading{display:block;font-family:fugaz one,cursive;font-size:2rem;color:#f2f3f4;line-height:1.1}.footer-logo-subheading{display:block;font-family:montserrat,sans-serif;font-size:1.25rem;color:#f2f3f4;font-weight:400}.footer-quote{text-align:center;font-size:1.15rem;font-weight:300;line-height:1.5;padding:1rem 0}@media(min-width:1024px){.footer-quote{display:flex;flex-direction:column;justify-content:center;align-items:center;margin:2rem;padding-top:1rem}}.footer-quote strong{font-weight:600}.footer-links{padding:2rem 0;text-align:center}@media(min-width:1024px){.footer-links{display:flex;flex-direction:column;justify-content:center;align-items:flex-end;text-align:right}}.footer-quick-links h2{font-family:montserrat,sans-serif;font-weight:600;font-size:1.25rem;margin:1rem 0;color:#f2f3f4}.footer-quick-links ul{display:inline-block;list-style:none;margin:0;padding:0}.footer-quick-links ul li{margin-bottom:.5rem}.footer-quick-links ul a{text-decoration:none;color:#f2f3f4;transition:color .2s ease}.footer-quick-links ul a:hover{color:var(--primary-color)}.footer-legal-links{width:fit-content;margin:0 auto}@media(min-width:1024px){.footer-legal-links{margin:0}}.footer-legal-links hr{margin-bottom:.5rem;border:.0625rem solid #383838}.footer-legal-links ul{display:inline-block;list-style:none;margin:0;padding:0}.footer-legal-links ul li{display:inline}.footer-legal-links ul li:not(:first-child)::before{content:" | "}.footer-legal-links ul a{text-decoration:none;color:#f2f3f4;font-size:.85rem}.footer-legal-links ul a:hover{color:var(--primary-color)}.footer-copyright{text-align:center;font-family:montserrat,sans-serif;font-size:.75rem;font-weight:600;border-top:.125rem solid #202020}.footer-copyright-text{display:inline-block;line-height:2rem;vertical-align:middle}</style></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta name="generator" content="Hugo 0.152.2"><script src="/Coded4you/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Coded4you/livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code For You Web Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat:wght@400;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Coded4you/css/style.css">
+    <script>
+        const storedThemeMode = localStorage.getItem('theme-mode') || 'auto';
+        document.documentElement.setAttribute('data-theme-mode', storedThemeMode);
+        
+        if (storedThemeMode === 'auto') {
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
+        } else {
+            document.documentElement.setAttribute('data-theme', storedThemeMode);
+        }
+    </script>
+</head>
+<body>
+    <header id="site-header">
+    <div class="container header-inner">
+        <a href="/Coded4you/" class="logo">
+            <div class="logo-icon">
+                <svg width="40" height="40" viewBox="0 0 960 1024" xmlns="http://www.w3.org/2000/svg"
+                    style="fill-rule:evenodd;clip-rule:evenodd;">
+                    <path
+                        d="M480,-0c269.652,-0 480,190.715 480,400c-1.113,87.192 -40.791,272.72 -55.032,337c-15.234,68.765 -57.024,111.215 -128.407,120c-39.051,4.086 -60.291,27.163 -65.223,64l-4.077,70c-1.019,24 -15.962,33 -39.745,33l-375.032,-0c-23.783,-0 -38.726,-9 -39.745,-33l-4.077,-70c-4.932,-36.837 -26.172,-59.914 -65.223,-64c-71.383,-8.785 -113.173,-51.235 -128.407,-120c-14.241,-64.28 -53.919,-249.808 -55.032,-337c-0,-209.285 210.348,-400 480,-400Zm327.48,613.579l9,-51.5l-155,-105l-12.5,70l89,61l-110,60l-12.5,70l192,-104.5Zm-363.23,102.75l123.75,-259.25l-52,-0l-124,259.25l52.25,-0Zm-145.73,1.75l12.5,-70l-89,-60l110.5,-61l12,-70l-192,105l-9,51.5l155,104.5Zm109.107,183.18c-14.961,-3.743 -29.362,-8.684 -43.205,-14.823c-13.806,-5.926 -22.698,-10.188 -26.676,-12.787c-4.192,-2.561 -7.417,-4.632 -9.676,-6.214l-12.282,46.387l10.166,7.118c15.913,10.395 42.338,21.136 79.275,32.224c17.646,5.249 39.12,8.502 64.423,9.761c25.341,1.472 50.067,0.082 74.178,-4.169c24.112,-4.252 46.014,-10.424 65.708,-18.517c19.732,-7.879 32.447,-13.751 38.146,-17.616c5.736,-3.652 10.054,-6.613 12.954,-8.885l-28.648,-46.43l-3.766,2.974c-5.837,4.329 -16.544,9.737 -32.121,16.224c-7.342,3.275 -16.769,6.587 -28.279,9.937c-11.259,3.525 -25.743,6.849 -43.453,9.972c-17.497,3.085 -37.579,3.986 -60.246,2.702c-22.667,-1.283 -41.5,-3.903 -56.498,-7.858Z"
+                        fill="currentColor" />
+                </svg>
+            </div>
+            <div class="logo-text-wrapper">
+                <span class="logo-text-main">Coded For You</span>
+                <span class="logo-text-sub">Web Services</span>
+            </div>
+        </a>
+        <nav style="display: flex; align-items: center; gap: 2rem;">
+            <div class="nav-drawer" id="nav-drawer">
+                <button class="close-menu" id="close-menu-btn" aria-label="Close Menu">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="http://localhost:1313/Coded4you/"
+                            class="active">Home</a></li>
+                    <li><a href="http://localhost:1313/Coded4you/about/" class="">About</a></li>
+                    <li style="position: relative;" class="dropdown-wrapper">
+                        <a href="#" class="" style="display: flex; align-items: center; gap: 0.2rem;">Services <svg
+                                width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg></a>
+                        <ul class="dropdown-menu"
+                            style="display: none; position: absolute; top: 100%; left: 0; background: var(--bg-white); border-radius: 8px; padding: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-direction: column; gap: 1rem; min-width: 150px; z-index: 100;">
+                            <li><a href="http://localhost:1313/Coded4you/#services" style="font-weight: normal; font-size: 1rem;">Web
+                                    Design</a></li>
+                            <li><a href="http://localhost:1313/Coded4you/printing/" style="font-weight: normal; font-size: 1rem;"
+                                    class="">3D Printing</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="http://localhost:1313/Coded4you/faq/" class="">FAQ</a></li>
+                    <li><a href="http://localhost:1313/Coded4you/pricing/" class="">Pricing</a></li>
+                    <li><a href="http://localhost:1313/Coded4you/contact/" class="">Contact</a></li>
+                </ul>
+                <div class="mobile-theme-toggle">
+                    <div class="theme-toggle-group">
+                        <label class="theme-radio" title="Automatic Theme">
+                            <input type="radio" name="theme-mobile" value="auto">
+                            <svg class="bi bi-circle-half" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"></path>
+                            </svg>
+                        </label>
+                        <label class="theme-radio" title="Light Theme">
+                            <input type="radio" name="theme-mobile" value="light">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </label>
+                        <label class="theme-radio" title="Dark Theme">
+                            <input type="radio" name="theme-mobile" value="dark">
+                            <svg class="bi bi-moon-fill" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 16 16" fill="currentColor">
+                                <path
+                                    d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="menu-toggle" id="mobile-menu-btn" aria-label="Toggle Menu">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </nav>
+    </div>
+</header>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const header = document.getElementById('site-header');
+
+        
+        const themeRadios = document.querySelectorAll('input[name="theme"], input[name="theme-mobile"]');
+        const currentStored = localStorage.getItem('theme-mode') || 'auto';
+
+        const syncRadios = (value) => {
+            themeRadios.forEach(radio => {
+                if (radio.value === value) radio.checked = true;
+            });
+        };
+
+        syncRadios(currentStored);
+
+        themeRadios.forEach(radio => {
+            radio.addEventListener('change', (e) => {
+                const mode = e.target.value;
+                syncRadios(mode);
+                localStorage.setItem('theme-mode', mode);
+                document.documentElement.setAttribute('data-theme-mode', mode);
+
+                if (mode === 'auto') {
+                    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                    document.documentElement.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
+                } else {
+                    document.documentElement.setAttribute('data-theme', mode);
+                }
+            });
+        });
+
+        
+        const handleScroll = () => {
+            if (window.scrollY > 20) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        handleScroll();
+
+        
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const closeBtn = document.getElementById('close-menu-btn');
+        const drawer = document.getElementById('nav-drawer');
+
+        menuBtn.addEventListener('click', () => {
+            drawer.classList.add('open');
+        });
+
+        closeBtn.addEventListener('click', () => {
+            drawer.classList.remove('open');
+        });
+
+        const links = drawer.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                drawer.classList.remove('open');
+            });
+        });
+    });
+</script>
+    <main>
+        
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+
+<section class="hp-hero">
+  <div class="hp-hero__inner container">
+    <div class="hp-hero__text">
+      <div class="hp-hero__heading">
+        <p class="hp-hero__kicker">Bespoke, Personal</p>
+        <h1 class="hp-hero__title">Web Design &amp; Development</h1>
+        <p class="hp-hero__sub-kicker">for your</p>
+        <h2 class="hp-hero__title">Small Business</h2>
+      </div>
+      <div class="hp-hero__body">
+        <p>We make websites that are good for you and your business - that's why we craft &amp; code each project from the ground up by hand.</p>
+        <p>No templates, no site builders, no AI generated content - your website should be as unique as your business is.</p>
+      </div>
+      <div class="hp-hero__buttons">
+        <a href="http://localhost:1313/Coded4you/contact/" class="cta-button" id="contact-button-1">Get Started</a>
+      </div>
+    </div>
+    <div class="hp-hero__image">
+      <img src="https://goodforyou.services/.netlify/images/?url=/images/mockups/mockup-vhcp-light.png&q=90&w=768" alt="Website displayed on multiple devices" />
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section-white">
+  <div class="container" style="max-width: 868px; text-align: center;">
+    <h2 style="font-size: 1.125rem; font-weight: 400; letter-spacing: 0.125rem; color: #222; margin-bottom: 0.5rem;" class="mission-text">What Can We Do For You?</h2>
+    <h3 style="font-size: 2.25rem; font-weight: 600; color: #222; margin-bottom: 0.75rem;" class="mission-text">Take a load off!</h3>
+    <p style="margin-top: 0.75rem; margin-bottom: 1.375rem; line-height: 1.25; color: #222; font-size: 1.1rem;" class="mission-text">
+      Running a small business has you wearing multiple hats all the time - trust me I know! Making a website is one thing, making a <strong>good</strong> website is another. Often times its unreasonable for you to manage your business's online presence completely independently.
+    </p>
+    <h3 style="font-size: 2.25rem; font-weight: 600; color: #222;" class="mission-text">That's where we come in!</h3>
+    <p style="margin-top: 0.75rem; margin-bottom: 1.375rem; line-height: 1.25; color: #222; font-size: 1.1rem;" class="mission-text">Here at Code For You Web Services, we are hyper focused on catering to small businesses and their needs. We know the tricks to the trade to craft a website that is fast, secure, and search engine optimized. We handle the details and minutia of making the best website for your business so you don't have to. That means you'll have more time to focus on running your business.
+    </p>
+  </div>
+</section>
+
+<style>
+[data-theme="dark"] .mission-text {
+  color: white !important;
+}
+</style>
+
+
+<section class="hp-features section-white">
+  <div class="container">
+    <div class="hp-feature-cards">
+
+      <div class="hp-feature-card">
+        <div class="hp-feature-icon-wrapper">
+          <div class="hp-feature-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+          </div>
+        </div>
+        <div class="hp-feature-content-wrapper">
+          <h3 class="hp-feature-heading">Mobile First Design</h3>
+          <p class="hp-feature-content">Your customers are going to visit your website on their mobile devices. To ensure the best experience, our websites are developed with an optimized mobile experience as a first priority - never as an afterthought.</p>
+        </div>
+      </div>
+
+      <div class="hp-feature-card">
+        <div class="hp-feature-icon-wrapper">
+          <div class="hp-feature-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          </div>
+        </div>
+        <div class="hp-feature-content-wrapper">
+          <h3 class="hp-feature-heading">Responsive Design</h3>
+          <p class="hp-feature-content">Your website needs to look great on any screen - phones, tablets, laptops, maybe even a projector! We build your website to dynamically adjust and scale your content depending on the size of the screen it is being viewed on.</p>
+        </div>
+      </div>
+
+      <div class="hp-feature-card">
+        <div class="hp-feature-icon-wrapper">
+          <div class="hp-feature-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+          </div>
+        </div>
+        <div class="hp-feature-content-wrapper">
+          <h3 class="hp-feature-heading">Secure By Default</h3>
+          <p class="hp-feature-content">We deploy our sites globally using static architecture so bad actors will never try to take advantage of people visiting your website. Additionally, all of our websites are maintained with regular security updates.</p>
+        </div>
+      </div>
+
+      <div class="hp-feature-card">
+        <div class="hp-feature-icon-wrapper">
+          <div class="hp-feature-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+          </div>
+        </div>
+        <div class="hp-feature-content-wrapper">
+          <h3 class="hp-feature-heading">SEO Optimized</h3>
+          <p class="hp-feature-content">What good is it to have a website if no one is looking at it? We use a combination of best practices, metadata tags, and server-side rendering to ensure your website is ranked highly with Google so new customers can easily find your business online.</p>
+        </div>
+      </div>
+
+      <div class="hp-feature-card">
+        <div class="hp-feature-icon-wrapper">
+          <div class="hp-feature-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          </div>
+        </div>
+        <div class="hp-feature-content-wrapper">
+          <h3 class="hp-feature-heading">Fast</h3>
+          <p class="hp-feature-content">Speed matters. Our websites are built with performance in mind, using clean code and optimized assets to ensure lightning-fast load times. Your visitors won't wait around for slow pages - and neither should you.</p>
+        </div>
+      </div>
+
+      <div class="hp-feature-card">
+        <div class="hp-feature-icon-wrapper">
+          <div class="hp-feature-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          </div>
+        </div>
+        <div class="hp-feature-content-wrapper">
+          <h3 class="hp-feature-heading">Dark Theme</h3>
+          <p class="hp-feature-content">We include a built-in dark theme option for your website, allowing visitors to switch between light and dark modes based on their preference. This improves user experience and reduces eye strain for night-time browsing.</p>
+        </div>
+      </div>
+
+    </div>
+    <div style="text-align: center; margin-top: 6rem;">
+      <a href="http://localhost:1313/Coded4you/contact/" class="cta-button cta-button-inverse">Get Started</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="hp-overview section-white">
+  <div class="container hp-overview__inner">
+
+    <div class="hp-overview__profile">
+      <div class="hp-overview__profile-wrapper">
+        <div class="hp-overview__caption-wrapper">
+          <img
+            class="hp-overview__profile-image"
+            src="https://goodforyou.services/images/profiles/ncunningham.webp"
+            alt="Nny, founder of Coded For You Web Services"
+          />
+          <div class="hp-overview__caption">
+            <div class="hp-overview__caption-text">
+              <span>Nny</span>
+              <span style="font-size: 0.85rem; font-weight: 400;">Founder &amp; Developer</span>
+            </div>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="color: var(--primary-color); flex-shrink: 0;">
+              <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z"/>
+              <path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hp-overview__content">
+      <h2 class="hp-overview__heading">Coded For You</h2>
+      <p class="hp-overview__subheading">websites are crafted for your business</p>
+      <p class="hp-overview__blurb">We are a small business ourselves, so we know firsthand what it takes to build an online presence that works for you. Every project is handled personally from design to launch.</p>
+      <div class="hp-overview__points">
+        <div class="hp-overview__point">
+          <h3 class="hp-overview__point-heading">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:inline; vertical-align: top; color: var(--primary-color); margin-right: 0.5rem;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            $0 Down
+          </h3>
+          <p>Start your website with no upfront cost. Pay a low monthly fee and get a professionally built website.</p>
+        </div>
+        <div class="hp-overview__point">
+          <h3 class="hp-overview__point-heading">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:inline; vertical-align: top; color: var(--primary-color); margin-right: 0.5rem;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Hand Crafted
+          </h3>
+          <p>No templates, no drag-and-drop builders. Every line of code is written from scratch for your unique business.</p>
+        </div>
+        <div class="hp-overview__point">
+          <h3 class="hp-overview__point-heading">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:inline; vertical-align: top; color: var(--primary-color); margin-right: 0.5rem;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Always Supported
+          </h3>
+          <p>We provide ongoing support and maintenance, so your site is always up to date and running smoothly.</p>
+        </div>
+        <div class="hp-overview__point">
+          <h3 class="hp-overview__point-heading">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:inline; vertical-align: top; color: var(--primary-color); margin-right: 0.5rem;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Money Back Guarantee
+          </h3>
+          <p>We will make something you'll love or your money back - no questions asked.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="hp-testimonials-section">
+  <div class="hp-testimonials-wrapper">
+
+    <div class="hp-testimonials-heading">
+      <div>What Our Clients Said</div>
+      <div>Coded For You</div>
+    </div>
+
+    <div class="hp-testimonials-carousel">
+      <div class="splide" id="testimonials-splide">
+        <div class="splide__track">
+          <div class="splide__list">
+
+            
+            <div class="splide__slide">
+              <div class="hp-testimonial-card">
+                <div class="hp-tc-image">
+                  <img src="https://goodforyou.services/.netlify/images/?url=/images/mockups/mockup-wpl-light.png&q=90&w=540" alt="Wealth Protection Lady website" />
+                </div>
+                <div class="hp-tc-info">
+                  <div class="hp-tc-body">
+                    <div>Working with Nick at Good for You Web Services was an absolute pleasure! He built a beautiful, functional, and user-friendly website that exceeded my expectations. His attention to detail, creativity, and technical expertise made the entire process smooth and efficient. Communication was excellent, and he was always responsive to my feedback and ideas.</div>
+                  </div>
+                  <div class="hp-tc-signature">
+                    <a class="hp-tc-company" href="https://wealthprotectionlady.com" target="_blank" rel="noopener">Wealth Protection Lady</a>
+                    <div class="hp-tc-date"><span>Reviewed </span><span>September 2024</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="splide__slide">
+              <div class="hp-testimonial-card">
+                <div class="hp-tc-image">
+                  <img src="https://goodforyou.services/.netlify/images/?url=/images/mockups/mockup-vhcp-light.png&q=90&w=540" alt="Client website example" />
+                </div>
+                <div class="hp-tc-info">
+                  <div class="hp-tc-body">
+                    <div>Nick was a pleasure to work with from start to finish. He took time to understand my vision and delivered a website that truly represents my brand. The entire process was professional, timely, and stress-free. I couldn't be happier with results!</div>
+                  </div>
+                  <div class="hp-tc-signature">
+                    <a class="hp-tc-company" href="http://localhost:1313/Coded4you/contact/" target="_blank" rel="noopener">A Happy Client</a>
+                    <div class="hp-tc-date"><span>Reviewed </span><span>2024</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<style>
+ 
+.hp-testimonials-section {
+  background-color: #e8e9ea;
+  padding: 0;
+}
+[data-theme="dark"] .hp-testimonials-section {
+  background-color: #222;
+}
+
+.hp-testimonials-wrapper {
+  padding: 3rem 1rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.hp-testimonials-heading {
+  margin-bottom: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--text-dark);
+}
+[data-theme="dark"] .hp-testimonials-heading {
+  color: var(--primary-color);
+}
+.hp-testimonials-heading div:first-child {
+  font-size: 1.25rem;
+  color: var(--text-dark);
+}
+[data-theme="dark"] .hp-testimonials-heading div:first-child {
+  color: var(--primary-color);
+}
+.hp-testimonials-heading div:nth-child(2) {
+  font-size: 2.5rem;
+  font-family: 'Fugaz One', cursive;
+  color: var(--primary-color);
+}
+[data-theme="dark"] .hp-testimonials-heading div:nth-child(2) {
+  color: var(--text-dark);
+}
+
+ 
+.hp-testimonial-card {
+  --card-width: 100%;
+  --card-gap: 2rem;
+  position: relative;
+  min-width: var(--card-width);
+  border-radius: 1rem;
+  background-color: #d5d6d8;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem 2rem;
+  padding: 1rem;
+  transition: transform 0.25s linear, box-shadow 0.25s linear;
+}
+[data-theme="dark"] .hp-testimonial-card { background-color: #2e2e2e; }
+
+@media (min-width: 768px) {
+  .hp-testimonial-card {
+    --card-width: 100%;
+    min-width: var(--card-width);
+    max-width: var(--card-width);
+  }
+  .hp-testimonial-card[data-current="true"] {
+    box-shadow: 0 0 0.5rem rgba(0,0,0,0.25);
+  }
+}
+
+@media (min-width: 1024px) {
+  .hp-testimonial-card { grid-template-columns: repeat(2, 1fr); }
+}
+
+.hp-tc-image { width: 100%; height: 100%; align-content: center; }
+.hp-tc-image img { max-width: min(100%, 640px); margin: 0 auto; border-radius: 0.5rem; display: block; }
+
+.hp-tc-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 1rem;
+  padding-top: 2.5rem;
+}
+.hp-tc-body {
+  flex-grow: 1;
+  position: relative;
+  display: block;
+  align-content: center;
+  margin-bottom: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.hp-tc-body > div {
+  padding: 0 0.75rem;
+  font-style: italic;
+  line-height: 1.5;
+}
+.hp-tc-signature { height: 4rem; text-align: right; }
+.hp-tc-company { font-weight: 600; text-decoration: none; color: #1e90ff; }
+.hp-tc-company:hover { text-decoration: underline; text-decoration-thickness: 0.125rem; }
+.hp-tc-date { margin-top: 0.25rem; font-size: 0.8rem; font-style: italic; }
+.hp-tc-date span:nth-of-type(1) { font-weight: 300; }
+.hp-tc-date span:nth-of-type(2) { font-weight: 500; }
+
+ 
+#testimonials-splide .splide__slide {
+  height: auto;
+  display: flex;
+  align-items: stretch;
+}
+#testimonials-splide .splide__slide .hp-testimonial-card {
+  height: 100%;
+  min-height: 400px;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  new Splide('#testimonials-splide', {
+    perPage: 1,
+    type: 'loop',
+    gap: '1rem',
+    padding: '5rem',
+    arrows: true,
+    pagination: true,
+    autoplay: false,
+    speed: 500,
+    easing: 'ease-in-out',
+  }).mount();
+});
+</script>
+
+
+<section class="hp-performance section-white" style="background-color: var(--primary-color);">
+  <div class="container hp-performance__inner">
+    <div class="hp-performance__text">
+      <div class="hp-performance__heading">
+        <p style="font-weight: 600; font-size: 1.25rem; font-family: 'Montserrat', sans-serif; color: var(--dark-accent);">Performance</p>
+        <p style="font-size: 3.25rem; font-family: 'Fugaz One', cursive; color: var(--dark-accent); line-height: 1.1;">Good For You</p>
+        <p style="font-size: 1.75rem; font-weight: 600; font-style: italic; color: var(--dark-accent); margin-top: -0.5rem;">websites are <span style="font-size: 2rem; font-weight: 800; font-style: italic; color: #f4f4f4; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.699);">fast.</span></p>
+      </div>
+      <p class="hp-performance__blurb" style="margin-bottom: 2rem; line-height: 1.25; color: var(--dark-accent);">No bloated site builders, page editors, or unnecessary plugins installed. Just clean, efficient code that is easy to maintain and extremely fast to load. Our websites regularly score a perfect 100 on Google's Lighthouse performance audit.</p>
+      <a href="http://localhost:1313/Coded4you/contact/" class="cta-button" style="background-color: var(--dark-accent); color: var(--primary-color);">Get Started</a>
+    </div>
+    <div class="hp-performance__image">
+      <img src="https://goodforyou.services/.netlify/images/?url=/images/pages/home/page-speed.png&q=90&w=768" alt="Google Lighthouse Perfect Score 100/100" style="border-radius: 1rem;" />
+    </div>
+  </div>
+</section>
+
+<style>
+ 
+.hp-hero {
+  padding-top: 3rem;
+  padding-bottom: 0;
+}
+.hp-hero__inner {
+  display: grid;
+  gap: 3rem;
+  padding: 1.5rem 1.5rem;
+  border-radius: 1rem;
+  background: var(--primary-color);
+  color: var(--dark-accent);
+  margin-bottom: 1rem;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .hp-hero__inner { 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.5rem;
+    padding: 2.5rem 2rem;
+  }
+}
+@media (min-width: 1280px) {
+  .hp-hero__inner {
+    padding: 3rem 2rem;
+    background: var(--primary-color);
+  }
+  .hp-hero__heading { text-align: left !important; }
+  .hp-hero__body { text-align: left !important; font-size: 1.25rem; }
+  .hp-hero__buttons { text-align: left !important; }
+}
+.hp-hero__heading { text-align: center; margin-bottom: 0.5rem; }
+.hp-hero__kicker { font-size: 1.25rem; letter-spacing: 0.25rem; line-height: 0.5; margin: 0 0 0.25rem; color: var(--dark-accent); }
+.hp-hero__title { font-size: 2.5rem; font-weight: 700; margin: 0; font-family: 'Montserrat', sans-serif; color: var(--dark-accent); }
+.hp-hero__sub-kicker { font-size: 1.25rem; font-style: italic; letter-spacing: 0.25rem; line-height: 0.5; margin: 0.25rem 0; color: var(--dark-accent); }
+.hp-hero__title2 { font-size: 2.5rem; font-weight: 700; margin: 0; font-family: 'Montserrat', sans-serif; color: var(--dark-accent); }
+[data-theme="dark"] .hp-hero__title2 { color: var(--primary-color); }
+@media (min-width: 1280px) {
+  .hp-hero__title, .hp-hero__title2 { font-size: 3rem; }
+}
+.hp-hero__body { text-align: center; line-height: 1.25; }
+.hp-hero__body p { margin-bottom: 0.375rem; }
+.hp-hero__buttons { margin-top: 1.5rem; text-align: center; }
+.hp-hero__buttons .cta-button { background-color: var(--dark-accent); color: var(--primary-color); }
+.hp-hero__buttons .cta-button:hover { background-color: var(--primary-color); color: var(--dark-accent); border: 2px solid var(--dark-accent); }
+.hp-hero__image { align-content: center; }
+.hp-hero__image img { margin: 0 auto; max-width: min(100%, 640px); filter: drop-shadow(0.125rem 0.5rem 0.75rem rgba(0,0,0,0.4)); }
+
+ 
+.hp-features { padding: 4rem 0; }
+.hp-feature-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0 4rem;
+  align-items: stretch;
+}
+@media (max-width: 767px) {
+  .hp-feature-cards {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 4rem;
+  }
+  .hp-feature-card {
+    margin: 2.5rem auto 0;
+  }
+}
+@media (min-width: 768px) {
+  .hp-feature-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    align-items: stretch;
+  }
+}
+@media (min-width: 1024px) {
+  .hp-feature-cards {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    align-items: stretch;
+  }
+}
+.hp-feature-card {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  max-width: 375px;
+  margin-top: 2.5rem;
+  border-radius: 1.125rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+   
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease, background-color 0.25s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+[data-theme="dark"] .hp-feature-card {
+  background-color: #2e2e2e;
+}
+.hp-feature-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.hp-feature-card:nth-child(1) { transition-delay: 0.05s; }
+.hp-feature-card:nth-child(2) { transition-delay: 0.15s; }
+.hp-feature-card:nth-child(3) { transition-delay: 0.25s; }
+.hp-feature-card:nth-child(4) { transition-delay: 0.35s; }
+.hp-feature-card:nth-child(5) { transition-delay: 0.45s; }
+.hp-feature-card:nth-child(6) { transition-delay: 0.55s; }
+
+.hp-feature-icon-wrapper {
+  position: absolute;
+  top: -2.5rem;
+  width: 100%;
+  text-align: center;
+}
+.hp-feature-icon {
+  height: 5rem;
+  width: 5rem;
+  margin: 0 auto;
+  padding: 1.25rem;
+  border-radius: 1.125rem;
+  background-color: var(--primary-color);
+  color: var(--dark-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+}
+.hp-feature-content-wrapper {
+  flex: 1;
+  padding: 2.5rem 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hp-feature-content-wrapper::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  border-radius: 1.125rem;
+  background-color: #f9e198;
+  transition: height 0.15s ease-in-out;
+}
+.hp-feature-heading {
+  margin: 1rem 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--dark-accent);
+  transition: color 0.15s ease-in-out;
+}
+[data-theme="dark"] .hp-feature-heading {
+  color: var(--primary-color);
+}
+.hp-feature-content {
+  margin: 0 2rem;
+  text-align: center;
+  line-height: 1.5;
+  color: var(--text-dark);
+  font-size: 0.95rem;
+  transition: color 0.15s ease-in-out;
+}
+ 
+.hp-feature-card:hover .hp-feature-icon {
+  background-color: #f2f3f4;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+}
+.hp-feature-card:hover .hp-feature-content-wrapper::before {
+  height: 100%;
+}
+.hp-feature-card:hover .hp-feature-heading {
+  color: #1b1b1b;
+}
+[data-theme="dark"] .hp-feature-card:hover .hp-feature-heading {
+  color: #1b1b1b;
+}
+.hp-feature-card:hover .hp-feature-content {
+  color: #1b1b1b;
+}
+[data-theme="dark"] .hp-feature-card:hover .hp-feature-content {
+  color: #1b1b1b;
+}
+
+ 
+.hp-testimonial { padding: 3rem 0; }
+.hp-testimonial-card {
+  display: grid;
+  align-items: stretch;
+  justify-items: center;
+  gap: 1rem 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #d5d6d8;
+}
+[data-theme="dark"] .hp-testimonial-card {
+  background-color: #2e2e2e;
+}
+@media (min-width: 1024px) {
+  .hp-testimonial-card { grid-template-columns: repeat(2, 1fr); }
+}
+.hp-testimonial-image img { max-width: min(100%, 640px); margin: 0 auto; border-radius: 0.75rem; }
+.hp-testimonial-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 1rem;
+  padding-top: 2.5rem;
+  justify-content: space-between;
+}
+.hp-testimonial-body {
+  flex-grow: 1;
+  position: relative;
+  display: block;
+  align-content: center;
+  margin-bottom: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.hp-testimonial-body > div {
+  padding: 0 0.75rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+.hp-testimonial-body > div:first-letter {
+  float: left;
+  padding: 0.35rem 0.375rem 0 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.hp-testimonial-signature { height: 2.5rem; text-align: right; }
+.hp-testimonial-company { font-weight: 600; text-decoration: none; color: #1e90ff; }
+.hp-testimonial-company:hover { text-decoration: underline; }
+.hp-testimonial-date { margin-top: 0.25rem; font-size: 0.8rem; font-style: italic; }
+.hp-testimonial-date span:nth-of-type(1) { font-weight: 300; }
+.hp-testimonial-date span:nth-of-type(2) { font-weight: 500; }
+
+ 
+.hp-overview { padding: 3rem 0 0.1rem; }
+.hp-overview__inner {
+  display: grid;
+  align-items: stretch;
+  justify-items: center;
+  gap: 4rem 3rem;
+  margin-bottom: 4rem;
+}
+@media (min-width: 1024px) {
+  .hp-overview__inner { 
+    grid-template-columns: 1fr 1.2fr;
+    align-items: stretch;
+    gap: 5rem 4rem;
+  }
+  .hp-overview__content { text-align: left; display: flex; flex-direction: column; justify-content: flex-start; height: 100%; }
+  .hp-overview__points { padding: 0; }
+}
+.hp-overview__profile { width: 100%; }
+.hp-overview__profile-wrapper { max-width: 540px; margin: 0 auto; }
+.hp-overview__caption-wrapper { position: relative; }
+.hp-overview__profile-image {
+  width: 100%;
+  border-radius: 4rem 4rem 1rem;
+  display: block;
+}
+.hp-overview__caption {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background-color: #f2f3f4;
+  color: #1b1b1b;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+@media (min-width: 1024px) {
+  .hp-overview__caption { padding: 1rem 2rem; }
+}
+.hp-overview__caption-text { display: flex; flex-direction: column; margin-right: 1rem; }
+.hp-overview__caption-text span:first-child { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 1rem; }
+
+.hp-overview__content { text-align: center; }
+.hp-overview__heading {
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2.75rem;
+  color: var(--dark-accent);
+}
+[data-theme="dark"] .hp-overview__heading {
+  color: var(--primary-color);
+}
+.hp-overview__subheading {
+  color: var(--primary-color);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+[data-theme="dark"] .hp-overview__subheading {
+  color: var(--text-dark);
+}
+.hp-overview__blurb {
+  margin-bottom: 1.5rem;
+  line-height: 1.25;
+  color: var(--text-dark);
+}
+.hp-overview__points {
+  padding: 0 1rem;
+  text-align: left;
+}
+@media (min-width: 640px) {
+  .hp-overview__points {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}
+.hp-overview__point { margin-bottom: 2rem; }
+.hp-overview__point-heading {
+  margin-bottom: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--dark-accent);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+[data-theme="dark"] .hp-overview__point-heading {
+  color: var(--primary-color);
+}
+.hp-overview__point p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: var(--text-dark);
+}
+
+ 
+.hp-performance { padding: 3rem 0; }
+.hp-performance__inner {
+  display: grid;
+  gap: 3rem;
+  padding: 3rem 0;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .hp-performance__inner { 
+    grid-template-columns: 1.2fr 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+}
+.hp-performance__image { margin: 1rem auto; width: 100%; max-width: 640px; }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.15 });
+
+  document.querySelectorAll('.hp-feature-card').forEach(card => observer.observe(card));
+});
+</script>
+
+
+    </main>
+    <footer class="site-footer">
+  <div class="footer-content">
+
+    <div class="footer-hero">
+      <a href="http://localhost:1313/Coded4you/" class="footer-logo">
+        <div class="footer-logo-image">
+          <svg width="64" height="64" viewBox="0 0 960 1024" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;">
+            <path d="M480,-0c269.652,-0 480,190.715 480,400c-1.113,87.192 -40.791,272.72 -55.032,337c-15.234,68.765 -57.024,111.215 -128.407,120c-39.051,4.086 -60.291,27.163 -65.223,64l-4.077,70c-1.019,24 -15.962,33 -39.745,33l-375.032,-0c-23.783,-0 -38.726,-9 -39.745,-33l-4.077,-70c-4.932,-36.837 -26.172,-59.914 -65.223,-64c-71.383,-8.785 -113.173,-51.235 -128.407,-120c-14.241,-64.28 -53.919,-249.808 -55.032,-337c-0,-209.285 210.348,-400 480,-400Zm327.48,613.579l9,-51.5l-155,-105l-12.5,70l89,61l-110,60l-12.5,70l192,-104.5Zm-363.23,102.75l123.75,-259.25l-52,-0l-124,259.25l52.25,-0Zm-145.73,1.75l12.5,-70l-89,-60l110.5,-61l12,-70l-192,105l-9,51.5l155,104.5Zm109.107,183.18c-14.961,-3.743 -29.362,-8.684 -43.205,-14.823c-13.806,-5.926 -22.698,-10.188 -26.676,-12.787c-4.192,-2.561 -7.417,-4.632 -9.676,-6.214l-12.282,46.387l10.166,7.118c15.913,10.395 42.338,21.136 79.275,32.224c17.646,5.249 39.12,8.502 64.423,9.761c25.341,1.472 50.067,0.082 74.178,-4.169c24.112,-4.252 46.014,-10.424 65.708,-18.517c19.732,-7.879 32.447,-13.751 38.146,-17.616c5.736,-3.652 10.054,-6.613 12.954,-8.885l-28.648,-46.43l-3.766,2.974c-5.837,4.329 -16.544,9.737 -32.121,16.224c-7.342,3.275 -16.769,6.587 -28.279,9.937c-11.259,3.525 -25.743,6.849 -43.453,9.972c-17.497,3.085 -37.579,3.986 -60.246,2.702c-22.667,-1.283 -41.5,-3.903 -56.498,-7.858Z" fill="currentColor"/>
+          </svg>
+        </div>
+        <div class="footer-logo-text">
+          <span class="footer-logo-heading">Coded For You</span>
+          <span class="footer-logo-subheading">Web Services</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="footer-quote">
+      <p>Let us build a website that is<br><strong><em>coded just for you</em></strong><br>and<br><strong><em>your business.</em></strong></p>
+    </div>
+
+    <div class="footer-links">
+      <div class="footer-quick-links">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="http://localhost:1313/Coded4you/">Home</a></li>
+          <li><a href="http://localhost:1313/Coded4you/about/">About</a></li>
+          <li><a href="http://localhost:1313/Coded4you/pricing/">Pricing</a></li>
+          <li><a href="http://localhost:1313/Coded4you/faq/">FAQ</a></li>
+          <li><a href="http://localhost:1313/Coded4you/contact/">Contact</a></li>
+          <li><a href="http://localhost:1313/Coded4you/printing/">3D Printing</a></li>
+        </ul>
+      </div>
+      <div class="footer-legal-links">
+        <hr />
+        <ul>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+          <li><a href="/terms/">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <div class="footer-copyright">
+    <span class="footer-copyright-text">&copy; 2026 Coded For You Web Services. All rights reserved.</span>
+  </div>
+</footer>
+
+<style>
+ 
+.site-footer {
+  width: 100%;
+  background-color: rgb(21, 21, 21);
+  color: #f2f3f4;
+  padding: 0;
+}
+
+ 
+.footer-content {
+  max-width: 1440px;
+   
+  display: block;
+  padding: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 4rem;
+    padding: 0;
+    max-width: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer-content {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+}
+
+ 
+.footer-hero {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .footer-hero { text-align: left; }
+}
+
+.footer-logo {
+  display: inline-block;
+  width: fit-content;
+  text-align: center;
+  text-decoration: none;
+  color: #f2f3f4;
+}
+
+@media (min-width: 1024px) {
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: left;
+  }
+}
+
+.footer-logo-image {
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+  max-height: 64px;
+  margin: 1rem auto;
+  color: #f2f3f4;
+}
+
+.footer-logo-text {
+  display: block;
+}
+
+.footer-logo-heading {
+  display: block;
+  font-family: 'Fugaz One', cursive;
+  font-size: 2rem;
+  color: #f2f3f4;
+  line-height: 1.1;
+}
+
+.footer-logo-subheading {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  color: #f2f3f4;
+  font-weight: 400;
+}
+
+ 
+.footer-quote {
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1024px) {
+  .footer-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding-top: 1rem;
+  }
+}
+
+.footer-quote strong { font-weight: 600; }
+
+ 
+.footer-links {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+  }
+}
+
+.footer-quick-links h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  color: #f2f3f4;
+}
+
+.footer-quick-links ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-quick-links ul li { margin-bottom: 0.5rem; }
+
+.footer-quick-links ul a {
+  text-decoration: none;
+  color: #f2f3f4;
+  transition: color 0.2s ease;
+}
+
+.footer-quick-links ul a:hover { color: var(--primary-color); }
+
+ 
+.footer-legal-links {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .footer-legal-links { margin: 0; }
+}
+
+.footer-legal-links hr {
+  margin-bottom: 0.5rem;
+  border: 0.0625rem solid #383838;
+}
+
+.footer-legal-links ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-legal-links ul li { display: inline; }
+.footer-legal-links ul li:not(:first-child)::before { content: " | "; }
+
+.footer-legal-links ul a {
+  text-decoration: none;
+  color: #f2f3f4;
+  font-size: 0.85rem;
+}
+
+.footer-legal-links ul a:hover { color: var(--primary-color); }
+
+ 
+.footer-copyright {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-top: 0.125rem solid rgb(32, 32, 32);
+}
+
+.footer-copyright-text {
+  display: inline-block;
+  line-height: 2rem;
+  vertical-align: middle;
+}
+</style>
+
+</body>
+</html>

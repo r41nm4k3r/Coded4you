@@ -491,7 +491,7 @@ footer {
     width: 100%;
     max-width: 0;
     height: 100dvh;
-    background-color: var(--bg-white);
+    background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
     overflow: hidden;
