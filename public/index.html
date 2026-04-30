@@ -640,6 +640,16 @@ document.addEventListener('DOMContentLoaded', function() {
   margin: 2rem 0 4rem;
   align-items: stretch;
 }
+@media (max-width: 767px) {
+  .hp-feature-cards {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 4rem;
+  }
+  .hp-feature-card {
+    margin: 2.5rem auto 0;
+  }
+}
 @media (min-width: 768px) {
   .hp-feature-cards {
     grid-template-columns: repeat(2, 1fr);

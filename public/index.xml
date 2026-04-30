@@ -1,46 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Code For You Web Services</title>
-    <link>http://localhost:1313/Coded4you/</link>
-    <description>Recent content on Code For You Web Services</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/Coded4you/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>3D Printing</title>
-      <link>http://localhost:1313/Coded4you/printing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Coded4you/printing/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;looking-for-3d-printing-in-los-angeles&#34;&gt;Looking For 3D Printing in Los Angeles?&lt;/h2&gt;&#xA;&lt;p&gt;Good For You Web Services is here to help. We offer fast and high quality 3D printing in a variety of materials and colors. Whether you are a business needing a custom replacement part printed, an individual wanting the latest fidget toy off Printables, or anything in between, we have the experience and expertise to produce a 3D print for you with unparalleled quality and strength!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Frequently Asked Questions</title>
-      <link>http://localhost:1313/Coded4you/faq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Coded4you/faq/</guid>
-      <description>&lt;h2 id=&#34;what-is-your-hourly-rate&#34;&gt;What is your hourly rate?&lt;/h2&gt;&#xA;&lt;p&gt;We don&amp;rsquo;t charge hourly for standard builds. You pay upfront for the predefined scope so there are no surprises!&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-long-does-a-website-take&#34;&gt;How long does a website take?&lt;/h2&gt;&#xA;&lt;p&gt;A standard Custom 5-page site typically takes 2-4 weeks from discovery to final deployment.&lt;/p&gt;&#xA;&lt;h2 id=&#34;do-i-own-my-website&#34;&gt;Do I own my website?&lt;/h2&gt;&#xA;&lt;p&gt;Absolutely. We structure our contracts so that once the site is paid for, all code, assets, and design files are 100% yours.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Send Us A Message</title>
-      <link>http://localhost:1313/Coded4you/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Coded4you/contact/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
-    </item>
-    <item>
-      <title>Simple, Transparent Pricing</title>
-      <link>http://localhost:1313/Coded4you/pricing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Coded4you/pricing/</guid>
-      <description>&lt;p&gt;We structure our pricing so that high-quality, custom web development is accessible to all small business owners.&lt;/p&gt;&#xA;&lt;h2 id=&#34;essentials-new&#34;&gt;Essentials (New!)&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;$75 Per Month&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Perfect for small businesses just getting started online.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;2 Pages Included (Limited)&lt;/li&gt;&#xA;&lt;li&gt;Design &amp;amp; Dev Included&lt;/li&gt;&#xA;&lt;li&gt;Unlimited Edits&lt;/li&gt;&#xA;&lt;li&gt;Hosting Included&lt;/li&gt;&#xA;&lt;li&gt;Continued Support&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;monthly-recommended&#34;&gt;Monthly (Recommended)&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;$175 Per Month&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Full service subscription with $0 down and zero stress.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;5 Pages Included&lt;/li&gt;&#xA;&lt;li&gt;Design &amp;amp; Dev Included&lt;/li&gt;&#xA;&lt;li&gt;Unlimited Edits&lt;/li&gt;&#xA;&lt;li&gt;Hosting Included&lt;/li&gt;&#xA;&lt;li&gt;Continued Support&lt;/li&gt;&#xA;&lt;li&gt;Add-ons Available&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;up-front&#34;&gt;Up Front&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;$3,750 Down&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Who we are</title>
-      <link>http://localhost:1313/Coded4you/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Coded4you/about/</guid>
-      <description>&lt;p&gt;Nick Cunningham is a web developer bringing bespoke, high-quality, hand-coded websites to small businesses. We pride ourselves on creating digital experiences that are good for you, your users, and your business&amp;rsquo;s success.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-process&#34;&gt;Our Process&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Discovery&lt;/strong&gt;: Learning about the business and exploring your goals.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Design&lt;/strong&gt;: Creating a custom look tailored to your specific user base.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Development&lt;/strong&gt;: Hand-coding the site from scratch without builders or templates.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Testing&lt;/strong&gt;: Ensuring everything works blazingly fast on all devices.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Launch&lt;/strong&gt;: Going live and supporting your business growth!&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code For You Web Services</title><link>https://r41nm4k3r.github.io/Coded4you/</link><description>Recent content on Code For You Web Services</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://r41nm4k3r.github.io/Coded4you/index.xml" rel="self" type="application/rss+xml"/><item><title>3D Printing</title><link>https://r41nm4k3r.github.io/Coded4you/printing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://r41nm4k3r.github.io/Coded4you/printing/</guid><description>&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id="looking-for-3d-printing-in-los-angeles"&gt;Looking For 3D Printing in Los Angeles?&lt;/h2&gt;
+&lt;p&gt;Good For You Web Services is here to help. We offer fast and high quality 3D printing in a variety of materials and colors. Whether you are a business needing a custom replacement part printed, an individual wanting the latest fidget toy off Printables, or anything in between, we have the experience and expertise to produce a 3D print for you with unparalleled quality and strength!&lt;/p&gt;</description></item><item><title>Frequently Asked Questions</title><link>https://r41nm4k3r.github.io/Coded4you/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://r41nm4k3r.github.io/Coded4you/faq/</guid><description>&lt;h2 id="what-is-your-hourly-rate"&gt;What is your hourly rate?&lt;/h2&gt;
+&lt;p&gt;We don&amp;rsquo;t charge hourly for standard builds. You pay upfront for the predefined scope so there are no surprises!&lt;/p&gt;
+&lt;h2 id="how-long-does-a-website-take"&gt;How long does a website take?&lt;/h2&gt;
+&lt;p&gt;A standard Custom 5-page site typically takes 2-4 weeks from discovery to final deployment.&lt;/p&gt;
+&lt;h2 id="do-i-own-my-website"&gt;Do I own my website?&lt;/h2&gt;
+&lt;p&gt;Absolutely. We structure our contracts so that once the site is paid for, all code, assets, and design files are 100% yours.&lt;/p&gt;</description></item><item><title>Send Us A Message</title><link>https://r41nm4k3r.github.io/Coded4you/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://r41nm4k3r.github.io/Coded4you/contact/</guid><description>&lt;!-- raw HTML omitted --&gt;</description></item><item><title>Simple, Transparent Pricing</title><link>https://r41nm4k3r.github.io/Coded4you/pricing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://r41nm4k3r.github.io/Coded4you/pricing/</guid><description>&lt;p&gt;We structure our pricing so that high-quality, custom web development is accessible to all small business owners.&lt;/p&gt;
+&lt;h2 id="essentials-new"&gt;Essentials (New!)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;$75 Per Month&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Perfect for small businesses just getting started online.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2 Pages Included (Limited)&lt;/li&gt;
+&lt;li&gt;Design &amp;amp; Dev Included&lt;/li&gt;
+&lt;li&gt;Unlimited Edits&lt;/li&gt;
+&lt;li&gt;Hosting Included&lt;/li&gt;
+&lt;li&gt;Continued Support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="monthly-recommended"&gt;Monthly (Recommended)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;$175 Per Month&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Full service subscription with $0 down and zero stress.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;5 Pages Included&lt;/li&gt;
+&lt;li&gt;Design &amp;amp; Dev Included&lt;/li&gt;
+&lt;li&gt;Unlimited Edits&lt;/li&gt;
+&lt;li&gt;Hosting Included&lt;/li&gt;
+&lt;li&gt;Continued Support&lt;/li&gt;
+&lt;li&gt;Add-ons Available&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="up-front"&gt;Up Front&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;$3,750 Down&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Who we are</title><link>https://r41nm4k3r.github.io/Coded4you/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://r41nm4k3r.github.io/Coded4you/about/</guid><description>&lt;p&gt;Nick Cunningham is a web developer bringing bespoke, high-quality, hand-coded websites to small businesses. We pride ourselves on creating digital experiences that are good for you, your users, and your business&amp;rsquo;s success.&lt;/p&gt;
+&lt;h2 id="our-process"&gt;Our Process&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Discovery&lt;/strong&gt;: Learning about the business and exploring your goals.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Design&lt;/strong&gt;: Creating a custom look tailored to your specific user base.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Development&lt;/strong&gt;: Hand-coding the site from scratch without builders or templates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Testing&lt;/strong&gt;: Ensuring everything works blazingly fast on all devices.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Launch&lt;/strong&gt;: Going live and supporting your business growth!&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>
