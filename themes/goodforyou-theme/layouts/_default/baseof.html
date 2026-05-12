@@ -16,6 +16,54 @@
         } else {
             document.documentElement.setAttribute('data-theme', storedThemeMode);
         }
+
+        // Back to Top Button functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const backToTopButton = document.getElementById('back-to-top');
+            let lastScrollTop = 0;
+            let scrollTimer = null;
+            
+            // Show/hide button based on scroll position
+            window.addEventListener('scroll', function() {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                
+                // Show/hide button based on scroll position
+                if (scrollTop > 300) {
+                    backToTopButton.classList.add('visible');
+                } else {
+                    backToTopButton.classList.remove('visible');
+                }
+                
+                // Add movement animations based on scroll direction
+                if (scrollTop > lastScrollTop) {
+                    // Scrolling down
+                    backToTopButton.classList.remove('scrolling-up');
+                    backToTopButton.classList.add('scrolling-down');
+                } else {
+                    // Scrolling up
+                    backToTopButton.classList.remove('scrolling-down');
+                    backToTopButton.classList.add('scrolling-up');
+                }
+                
+                // Clear previous timer
+                clearTimeout(scrollTimer);
+                
+                // Remove animation classes after animation completes
+                scrollTimer = setTimeout(function() {
+                    backToTopButton.classList.remove('scrolling-up', 'scrolling-down');
+                }, 300);
+                
+                lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+            });
+            
+            // Smooth scroll to top when clicked
+            backToTopButton.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        });
     </script>
 </head>
 <body>
@@ -24,5 +72,25 @@
         {{ block "main" . }}{{ end }}
     </main>
     {{ partial "footer.html" . }}
+    
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <div class="vertical-text">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+            <span>p</span>
+            <span>o</span>
+            <span>t</span>
+            <span>&nbsp;</span>
+            <span>o</span>
+            <span>t</span>
+            <span>&nbsp;</span>
+            <span>k</span>
+            <span>c</span>
+            <span>a</span>
+            <span>b</span>
+        </div>
+    </button>
 </body>
 </html>
