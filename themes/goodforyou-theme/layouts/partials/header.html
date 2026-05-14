@@ -27,7 +27,7 @@
                             class="{{ if (eq .RelPermalink .Site.Home.RelPermalink) }}active{{ end }}">Home</a></li>
                     <li><a href="{{ .Site.BaseURL }}about/" class="{{ if (eq .RelPermalink " /about/") }}active{{ end
                             }}">About</a></li>
-                    <li style="position: relative;" class="dropdown-wrapper">
+                    <!-- <li style="position: relative;" class="dropdown-wrapper">
                         <a href="#" class="{{ if or (eq .RelPermalink " /printing/") (eq .RelPermalink "/#services" )
                             }}active{{ end }}" style="display: flex; align-items: center; gap: 0.2rem;">Services <svg
                                 width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -42,7 +42,7 @@
                                     class="{{ if (eq .RelPermalink " /printing/") }}active{{ end }}">3D Printing</a>
                             </li>
                         </ul>
-                    </li>
+                    </li> -->
                     <li><a href="{{ .Site.BaseURL }}faq/" class="{{ if (eq .RelPermalink " /faq/") }}active{{ end
                             }}">FAQ</a></li>
                     <li><a href="{{ .Site.BaseURL }}pricing/" class="{{ if (eq .RelPermalink " /pricing/") }}active{{
@@ -61,8 +61,8 @@
                         </label>
                         <label class="theme-radio" title="Light Theme">
                             <input type="radio" name="theme-mobile" value="light">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <circle cx="12" cy="12" r="5"></circle>
                                 <line x1="12" y1="1" x2="12" y2="3"></line>
                                 <line x1="12" y1="21" x2="12" y2="23"></line>
