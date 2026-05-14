@@ -4,7 +4,7 @@
     <title>Categories on Code For You Web Services</title>
     <link>http://localhost:1313/Coded4you/categories/</link>
     <description>Recent content in Categories on Code For You Web Services</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/Coded4you/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>

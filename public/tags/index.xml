@@ -4,7 +4,7 @@
     <title>Tags on Code For You Web Services</title>
     <link>http://localhost:1313/Coded4you/tags/</link>
     <description>Recent content in Tags on Code For You Web Services</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/Coded4you/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
